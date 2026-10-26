@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
+int main() {
 
 // ===== Людина 1: гривня -> долар та євро =====
 // double uah_to_usd(double uah, double rate)
@@ -19,13 +20,16 @@ using namespace std;
 
 
 // ===== Людина 4: Цельсій -> Фаренгейт =====
-double celsius_to_fahrenheit(double celsius) {
-    return celsius * 9.0 / 5.0 + 32.0;
-}
+double celsius;
+    cout << "Введіть температуру в градусах Цельсія: ";
+    cin >> celsius;
+double fahrenheit = celsius * 9.0 / 5.0 + 32.0;
+    cout << celsius << " C = " << fahrenheit << " F" << endl;
+
 
 
 
 // ===== Людина 4: головне меню =====
-int main() {
+
     return 0;
 }
