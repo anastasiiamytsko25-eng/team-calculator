@@ -15,7 +15,12 @@ int main() {
 
 
 // ===== Людина 3: метри -> фути =====
-// double meters_to_feet(double meters)
+double metr, funt = 3.28, result;
+cout << "перевід метри в фунти:" << endl;
+cout << "введіть метри: ";
+cin >> metr;
+result = metr * funt;
+cout << result;
 
 
 
