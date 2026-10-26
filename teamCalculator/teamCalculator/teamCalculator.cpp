@@ -1,17 +1,29 @@
 ﻿#include <iostream>
-#include <cmath>
 using namespace std;
 
-// ===== Студент 1: квадрат =====
+// ===== Людина 1: гривня -> долар та євро =====
+// double uah_to_usd(double uah, double rate)
+// double uah_to_eur(double uah, double rate)
 
 
-// ===== Студент 2: трикутник =====
+
+// ===== Людина 2: долар та євро -> гривня =====
+// double usd_to_uah(double usd, double rate)
+// double eur_to_uah(double eur, double rate)
 
 
-// ===== Студент 3: коло =====
+
+// ===== Людина 3: метри -> фути =====
+// double meters_to_feet(double meters)
 
 
-// ===== Студент 4: головне меню =====
+
+// ===== Людина 4: Цельсій -> Фаренгейт =====
+// double celsius_to_fahrenheit(double celsius)
+
+
+
+// ===== Людина 4: головне меню =====
 int main() {
     return 0;
 }
