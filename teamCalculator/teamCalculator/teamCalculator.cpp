@@ -30,15 +30,18 @@ int choice;
 
 
 // ===== Людина 3: метри -> фути =====
- case 3:{
-  double metr, funt = 3.28, result;
-cout << "перевід метри в фунти:" << endl;
-cout << "введіть метри: ";
-cin >> metr;
-result = metr * funt;
-cout << result;
-   break;
- }
+case 3: {
+    double metr, result;
+    const double funt = 3.28084;
+
+    cout << "Переведіть метри в фути" << endl;
+    cout << "Введіть метри: ";
+    cin >> metr;
+
+    result = metr * funt;
+    cout << metr << " м = " << result << " фт" << endl;
+    break;
+}
 
 
 // ===== Людина 4: Цельсій -> Фаренгейт =====
